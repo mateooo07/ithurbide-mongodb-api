@@ -1,0 +1,63 @@
+# ==============================
+# Node.js / Express / MongoDB
+# ==============================
+
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Cobertura y testing
+coverage/
+*.lcov
+
+# Compilación / Builds
+dist/
+build/
+tmp/
+temp/
+
+# Archivos temporales del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de producción / deployment
+*.tgz
+*.tar.gz
+
+# Archivos de sistema de Windows y macOS
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Cachés
+.cache/
+.nyc_output/
+
+# MongoDB dump files
+dump/
+
+# Archivos del servidor local (si usas pm2, etc.)
+pids
+*.pid
+*.seed
+
+# Archivos generados por nodemon o herramientas locales
+nodemon-debug.log
